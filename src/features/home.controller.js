@@ -1,3 +1,5 @@
-export default function MyCtrl() {
-    this.test = 'Hello from home controller';
+export default function HomeViewController() {
+    var vm = this;
+
+    vm.name = 'Kelly';
 }
